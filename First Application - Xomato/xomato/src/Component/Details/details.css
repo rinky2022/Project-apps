@@ -1,0 +1,132 @@
+.main{
+    display: inline-block;
+    width:100%
+}
+
+.tileImage{
+    height: 550px;
+    width:48%;
+    float: left;
+}
+
+
+
+.tileContent{
+    height: 550px;
+    width:50%;
+    margin-left: 2%;
+    float: left;
+}
+
+.imageClass > img{
+    height: 500px;
+    width:95%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+
+#cfeedback{
+    margin-left:3%;
+    color:green
+}
+
+.icons{
+    display: inline-block;
+    margin-left:2%
+}
+.icons >img{
+    width: 120px;
+    height:120px;
+}
+
+#stock{
+    font-size: 30px;
+    color:green
+}
+
+.button{
+    height:48px;
+    width:250px;
+    font-size:20px;
+}
+#Atoc{
+    background-color:green
+
+}
+
+@media screen and (max-width:1120px){
+    
+ .bg-success{
+     margin-top: 5%;
+ }
+}
+
+@media screen and (max-width:1000px){
+  
+   
+    .bg-success{
+        margin-top: 70%;
+     
+    }
+
+}
+    @media screen and (max-width:890px){
+       
+      
+        .bg-success{
+            margin-top: 80%;
+         
+        }
+    }
+    
+    @media screen and (max-width:758px){
+       
+        .bg-success{
+            margin-top: 95%;
+        }
+    }
+
+    
+    @media screen and (max-width:630px){
+       
+        .bg-success{
+            margin-top:120%;
+        }
+    }
+    
+    
+@media screen and (max-width:572px){
+    .bg-success{
+        margin-top: 250%;
+    }
+   
+    .tileImage{
+        width:80%;
+    }
+    .tileContent{
+        width:80%;
+    }
+}
+
+
+@media screen and (max-width:460px){
+  
+    
+    .bg-success{
+        margin-top:220%;
+    }
+}
+
+
+@media screen and (max-width:370px){
+    .bg-success{
+        margin-top: 190%;
+    }
+}
+@media screen and (max-width:330px){
+    .bg-success{
+        margin-top: 160%;
+    }
+}
+

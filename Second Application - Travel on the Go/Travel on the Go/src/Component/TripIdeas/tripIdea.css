@@ -1,0 +1,58 @@
+
+.menu{
+    height:40%;
+    width:100%;
+   
+}
+.search
+{
+  
+    margin-left: 2%;
+   display: inline-block;
+}
+.displayTrip
+{
+    display:inline-block;
+    padding-top: 10%;
+}
+.menuitem
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    
+}
+.filtercontent
+{   padding-top: 1%;
+    padding-left: 2%;
+    width:60%;   
+    margin-left: 30%;    
+    font-weight:bold;
+    box-sizing: border-box; 
+    float:left;
+    position:absolute;
+ 
+
+}
+.card
+{
+    margin-bottom: 2%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+
+body{
+
+    background-color: rgb(168, 219, 248);
+    opacity:0.8;
+    background-repeat:round;
+    background-size: cover;
+    display: block;     
+
+}
+@media screen and (max-width:765px) {
+    #displayTrip{
+        padding-top:10%;
+    }   
+}

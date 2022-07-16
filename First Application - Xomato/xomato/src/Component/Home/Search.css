@@ -1,0 +1,385 @@
+.search{
+    height:450px;
+    width:100%;
+    background-image:url('https://i.ibb.co/NVQxPB6/food-Wallpaper.png');
+    background-repeat:no-repeat;
+    background-size: 100% 450px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 46%;
+    margin-top: 1%;
+    position:absolute;
+
+}
+
+#logo > span{
+    position:absolute;
+    margin-left: 30%;
+    margin-top: 8%;
+    font-size:90px;
+    color:rgb(197 68 45);
+}
+
+#heading{
+    color:white;
+    font-size:45px;
+    margin-top:14%;
+    margin-left: 20%;
+    position:absolute;
+    font-family: Georgia;
+}
+
+.dropdown{
+    width:50%;
+    height:60px;
+    margin-top:22%;
+    margin-left:31%;
+    position:absolute;
+}
+#city{
+    margin-left: -8%;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size:80px;
+    color:#df7839;
+    animation:animate 10s infinite;
+    z-index: 1;
+}
+
+#logo > span {
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+    z-index: 1;
+}
+
+@keyframes animate{
+    0% {margin-left: 45%;}
+    20% {margin-left: 40%;}
+    60% {margin-left: 45%;}
+    85% {margin-left: 40%;}
+    100% {margin-left: 45%;}
+
+}
+
+select{
+    height:60px;
+    width:40%
+}
+
+.restaurantSelect{
+    width:50%
+}
+
+@media screen and (max-width:1120px){
+    
+    #heading{
+        margin-left: 11%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 27%;
+        /* margin-top: 25%; */
+    }
+    #search{
+        margin-top: -25%;
+    }
+}
+
+@media screen and (max-width:1000px){
+  
+   
+    #logo{
+        margin-left: 40%;
+    }
+    #logo > span{
+        position:absolute;
+        margin-left: 30%;
+        margin-top: 0%;
+        font-size:90px;
+        color:rgb(197 68 45);
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 24%;
+        
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+    .restaurantSelect
+    {
+        margin-top: 55%;
+    }
+    #city{
+        margin-top: 10%;
+
+    }
+    #hotels{
+        margin-top: 10%;
+    }
+
+}
+    @media screen and (max-width:890px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 75px;
+            height:120px;
+            width:120px;
+            margin-top: 20px;
+            padding-top: -5px;
+        }
+        #heading{
+            margin-left: 15%;
+           margin-bottom: -8%;
+            font-size: 25px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: -9%;
+        }
+        .restaurantSelect{
+            margin-top: 0%; 
+        }
+        #search{
+            margin-top: -40%;
+        }
+        #city{
+            margin-top: 0%;
+
+        }
+        #hotels{
+            margin-top: 0%;
+        }
+    }
+    
+    @media screen and (max-width:758px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 75px;
+            height:120px;
+            width:120px;
+            margin-top: 20px;
+            padding-top: -5px;
+        }
+        #logo > span{
+            position:absolute;
+            margin-left: 30%;
+            margin-top: 0%;
+            font-size:90px;
+            color:rgb(197 68 45);
+        }
+        #heading{
+            margin-left: 10%;
+            margin-top: 24%;
+            font-size: 35px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: 34%;
+        }
+        #search{
+            margin-top: -30%;
+        }
+        .restaurantSelect{
+            margin-top: 70%;
+        }
+        .Collectioncontainer{
+            height: 2%;
+        }
+        #city{
+            margin-top: 10%;
+    
+        }
+        #hotels{
+            margin-top: 10%;
+        }
+    }
+
+    
+    @media screen and (max-width:630px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 65px;
+            height:100px;
+            width:100px;
+            margin-top: 20px;
+            padding-top: -5px;
+        }
+        #logo > span{
+            position:absolute;
+            margin-left: 20%;
+            margin-top: 0%;
+            font-size:80px;
+            color:rgb(197 68 45);
+        }
+        #heading{
+            margin-left: 15%;
+            margin-top: 24%;
+            font-size: 35px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: 34%;
+        }
+        #search{
+            margin-top: -30%;
+        }
+        .restaurantSelect{
+            margin-top: 70%;
+        }
+        .Collectioncontainer{
+            height: 3%;
+        }
+        #footer{
+            margin-top:100%;
+        }
+        #city{
+            margin-top: 10%;
+    
+        }
+        #hotels{
+            margin-top: 10%;
+        }
+    }
+    
+    
+@media screen and (max-width:572px){
+  
+    .tileContainer{
+        width: 85%;
+    }
+    #logo{
+        margin-left: 40%;
+        font-size: 60px;
+        height:100px;
+        width:100px;
+        margin-top: 10px;
+        padding-top: -5px;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 28%;
+        font-size: 30px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 80%;
+    } 
+    .Collectioncontainer{
+        height: 3%;
+    }
+    #footer{
+        margin-top:100%;
+    } 
+}
+
+
+@media screen and (max-width:460px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 60px;
+        height:100px;
+        width:100px;
+        margin-top: 3%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 28%;
+        font-size: 25px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 95%;
+    }  
+    .Collectioncontainer{
+        height: 3%;
+    }
+    #footer{
+        margin-top:100%;
+    }
+}
+
+
+@media screen and (max-width:370px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 50px;
+        height:90px;
+        width:90px;
+        margin-top: 3%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 30%;
+        font-size: 25px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 100%;
+    }  
+    .Collectioncontainer{
+        height: 3%;
+    }
+}
+@media screen and (max-width:330px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 35px;
+        height:70px;
+        width:70px;
+        margin-top: 6%;
+    }
+    #heading{
+        margin-left: 6%;
+        margin-top: 40%;
+        font-size: 20px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 120%;
+    }
+    .Collectioncontainer{
+        height: 3%;
+    }  
+    #footer{
+        margin-top:100%;
+    }
+}
